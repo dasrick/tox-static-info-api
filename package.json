@@ -1,0 +1,21 @@
+{
+  "name": "tox-static-info-api",
+  "version": "0.0.0",
+  "description": "playground for static info api based on node.js ... express, restify etc.",
+  "author": "Enrico Hoffmann <dasrick@gmail.com>",
+  "license": "MIT",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasrick/tox-static-info-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dasrick/tox-static-info-api/issues"
+  },
+  "homepage": "https://github.com/dasrick/tox-static-info-api#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
