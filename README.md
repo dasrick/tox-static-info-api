@@ -23,6 +23,15 @@ $ yarn install
 ```
 
 
+## Usage
+
+
+## Configuration for local usage
+
+You have to setup the database connection. Default is `mongodb://127.0.0.1:27017`. Otherwise set this var `MONGODB_URI`
+
+    export MONGODB_URI=your://mongoconnection
+
 ***
 
 [david-dep-image]: https://david-dm.org/dasrick/tox-static-info-api/status.svg
