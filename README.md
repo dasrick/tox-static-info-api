@@ -1,5 +1,7 @@
+[![Build Status][travis-image]][travis-url]
 [![dependency Status][david-dep-image]][david-dep-url]
 [![devDependency Status][david-devdep-image]][david-devdep-url]
+[![License][license-image]][license-url]
 
 ***
 
@@ -38,3 +40,9 @@ You have to setup the database connection. Default is `mongodb://127.0.0.1:27017
 [david-dep-url]: https://david-dm.org/dasrick/tox-static-info-api#info=dependencies
 [david-devdep-image]: https://david-dm.org/dasrick/tox-static-info-api/dev-status.svg
 [david-devdep-url]: https://david-dm.org/dasrick/tox-static-info-api#info=devDependencies
+
+[travis-image]: https://travis-ci.org/dasrick/tox-static-info-api.svg?branch=master
+[travis-url]: https://travis-ci.org/dasrick/tox-static-info-api
+
+[license-image]: https://img.shields.io/github/license/dasrick/tox-static-info-api.svg?style=flat-square
+[license-url]: https://github.com/dasrick/tox-static-info-api/blob/master/LICENSE
