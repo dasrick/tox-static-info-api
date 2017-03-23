@@ -7,7 +7,7 @@
 
 # tox-static-info-api
 
-playgriund for static info api based on node.js ... express, restify etc.
+playground for static info api based on node.js ... express, restify etc.
 
 
 ## Installation
@@ -26,6 +26,8 @@ $ yarn install
 
 
 ## Usage
+
+.. coming soon ...
 
 
 ## Configuration for local usage
