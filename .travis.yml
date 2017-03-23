@@ -7,11 +7,11 @@ node_js:
 cache:
   directories:
   - node_modules
-deploy:
-  provider: heroku
-  api_key:
-    secure: 5SiDNHr/KMGzAXHrbV2bihq7A5VPUhVrgudMvs9koo9RNBu/B44G0Ud3OUA1l2LfIKym7v2fBIiWj8Q+6v9tVy5E5DFDcN9A1yAQgsJBl/LBpbMa5zPt1DM7wR57WcF7H0vwT+cv2g2BY1J7c0H5hk63sjT2XdOC4OV+FWAJlEIx62lGqGQjF/V9LPa94kFn8/9eDD9kep6v17jp0gEU33+jfQ3dRngzfwv9leT/X1RVKrlRufZSTzLYYarxktuVZoXqncmHY76q/SIf3UQjhLIKo/c3q+xrWHR7vJ4/cgpgED8Bl4JZ6+LdbS0oFp8BCcS4oKFOI/qi8NYLDvuyqwGBMFvzHz+oK4jLL1n78o6W3PaytYOg4IV/kb18JOlorIKnTxiMsJxfDbl8mf9szwBayqVYy3ItpEUARRMMMiTNdz+CFdQBE5kFeC4wpMbzZqUoB5V0yMEmbiDzPMLsriJDUJIlggezzxbgnAK5EEB7MrjoPTqQ/x9/DPIvSGUv2MJLAncSb0wCcLl7C6Ee7RRYOgq96H0bVlbWRsVfaekj8Wj1KmvT5PrqjkLPyy9dbp+sIjnlyuXgi2/4gHQhvcH5FlbDv9XAfXAfsgCO6XI4N4Amf4SU9QJhOOATFGYDcs5MnzyEngvParG6yQXQsVFauKuVOe29Dm/k9A8salA=
-  app: tox-static-info-api-qa
-  on:
-    tags: true
-    node: '7'
+#deploy:
+#  provider: heroku
+#  api_key:
+#    secure: 5SiDNHr/KMGzAXHrbV2bihq7A5VPUhVrgudMvs9koo9RNBu/B44G0Ud3OUA1l2LfIKym7v2fBIiWj8Q+6v9tVy5E5DFDcN9A1yAQgsJBl/LBpbMa5zPt1DM7wR57WcF7H0vwT+cv2g2BY1J7c0H5hk63sjT2XdOC4OV+FWAJlEIx62lGqGQjF/V9LPa94kFn8/9eDD9kep6v17jp0gEU33+jfQ3dRngzfwv9leT/X1RVKrlRufZSTzLYYarxktuVZoXqncmHY76q/SIf3UQjhLIKo/c3q+xrWHR7vJ4/cgpgED8Bl4JZ6+LdbS0oFp8BCcS4oKFOI/qi8NYLDvuyqwGBMFvzHz+oK4jLL1n78o6W3PaytYOg4IV/kb18JOlorIKnTxiMsJxfDbl8mf9szwBayqVYy3ItpEUARRMMMiTNdz+CFdQBE5kFeC4wpMbzZqUoB5V0yMEmbiDzPMLsriJDUJIlggezzxbgnAK5EEB7MrjoPTqQ/x9/DPIvSGUv2MJLAncSb0wCcLl7C6Ee7RRYOgq96H0bVlbWRsVfaekj8Wj1KmvT5PrqjkLPyy9dbp+sIjnlyuXgi2/4gHQhvcH5FlbDv9XAfXAfsgCO6XI4N4Amf4SU9QJhOOATFGYDcs5MnzyEngvParG6yQXQsVFauKuVOe29Dm/k9A8salA=
+#  app: tox-static-info-api-qa
+#  on:
+#    tags: true
+#    node: '7'
