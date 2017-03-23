@@ -1,0 +1,7 @@
+{
+  "name":"tox-static-info-api",
+  "description":"API for static info based on node.js etc.",
+  "scripts":{},
+  "env":{},
+  "addons":[]
+}
