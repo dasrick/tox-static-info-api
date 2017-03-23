@@ -71,7 +71,7 @@ restify.defaults({
 
 
 // import and use models
-// restify.serve(router, require('./src/models/themodel'));
+restify.serve(router, require('./src/models/territories'));
 
 app.use(router);
 
