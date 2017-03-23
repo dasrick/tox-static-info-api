@@ -13,7 +13,9 @@
     "url": "https://github.com/dasrick/tox-static-info-api/issues"
   },
   "homepage": "https://github.com/dasrick/tox-static-info-api#readme",
-  "dependencies": {},
+  "dependencies": {
+    "david": "^11.0.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
