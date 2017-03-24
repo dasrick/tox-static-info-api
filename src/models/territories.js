@@ -8,4 +8,4 @@ var ModelSchema = new Schema({
     versionKey: false
 });
 
-module.exports = mongoose.model('Territories', ModelSchema);
+module.exports = mongoose.model('territories', ModelSchema);
