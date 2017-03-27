@@ -1,6 +1,6 @@
 {
   "name": "tox-static-info-api",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "playground for static info api based on node.js ... express, restify etc.",
   "author": "Enrico Hoffmann <dasrick@gmail.com>",
   "license": "MIT",
