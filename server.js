@@ -9,6 +9,7 @@ var morgan = require('morgan');
 var mongoose = require('mongoose');
 var restify = require('express-restify-mongoose');
 var opbeat = require('opbeat').start();
+var cors = require('cors');
 var app = express();
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -23,6 +24,7 @@ var env = process.env.NODE_ENV || 'development';
 app.set('port', port);
 app.use(morgan('dev'));
 app.use(opbeat.middleware.express());
+app.use(cors());
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // config body parser
